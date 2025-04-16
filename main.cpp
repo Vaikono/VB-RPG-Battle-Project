@@ -15,11 +15,11 @@ void printPicture(); // Print a picture in the beginning of the program
 void printEnding();  // Print a picture in the end of the program
 
 int main() {
+  system("chcp 65001"); // Set the console to UTF-8 encoding to properly display the characters
   string charName; // Name of the character
   int choice;      // A input to navigate the menu/program
   int option;      // A secondary input to navigate the menu/program
-  Character *
-      player; // Pointer for the character class as well as the user's character
+  Character *player; // Pointer for the character class as well as the user's character
   string filename = "savefile1.txt"; // The saving file
 
   cout << "Welcome to Clash of Guild!" << endl;

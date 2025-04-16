@@ -516,7 +516,7 @@ Character* Character::rngOpp()  { //Randomly generate an opponent
       cout << "Opponent found!" << endl;
       return opp;
     }
-    else if(classNum == 3)  {
+    else if(classNum == 3){
       Rogue* opp = new Rogue("Opponent");
       cout << "Opponent found!" << endl;
       return opp;
